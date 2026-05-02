@@ -7,7 +7,7 @@ A **complete, modern and mobile-friendly UI Library for Roblox**, made for **exe
 ## 🚀 Load Library
 
 ```lua
-local UILibrary = loadstring(game:HttpGet("SEU_LINK_AQUI"))()
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/doenteexploiter/BlueLibary/refs/heads/main/blue.lua"))()
 local player = game.Players.LocalPlayer
 
 local ui = UILibrary:CreateUI(player)
@@ -285,7 +285,7 @@ Some features require executor support:
 ## 🔥 Full Example
 
 ```lua
-local UILibrary = loadstring(game:HttpGet("SEU_LINK"))()
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/doenteexploiter/BlueLibary/refs/heads/main/blue.lua"))()
 local player = game.Players.LocalPlayer
 
 local ui = UILibrary:CreateUI(player)
